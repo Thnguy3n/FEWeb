@@ -1,0 +1,123 @@
+﻿body {
+}
+
+header{
+    font-size:30px;
+    font-weight:bold;
+    text-align: center;
+}
+
+.container {
+    width: 1200px;
+    background-color: lightgray;
+    height: 430px;
+}
+
+.left-container{
+    width:800px;
+    float:left;
+    height:100%;
+}
+
+.cart-item-inner {
+    width: 100%;
+    display: table;
+}
+.cart-item-left {
+    margin: 50px 0px 0px 10px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-container {
+    width: 400px;
+    float: right;
+    padding-top: 50px;
+    display: block;
+    justify-content: center;
+}
+.discount {
+    padding-left: 25px;
+    font-size: 19px;
+    font-weight: 400;
+}
+.temporary-price {
+    padding-left: 25px;
+}
+input {
+    width: 40px;
+    margin-top: 15px;
+}
+
+button {
+    height: 45px;
+    width: 65px;
+    color: white;
+    background-color: GREEN;
+    border: none;
+    padding: 5px 10px 5px 10px;
+    margin: 5px;
+    font-family: "Ostrich";
+    font-size: 18px;
+    border-radius: 17px;
+}
+
+    button:hover {
+        opacity:0.6;
+    }
+
+textarea {
+    text-align: center;
+    font-family: "Ostrich";
+    display: flex;
+    font-size: 20px;
+    width: 250px;
+    height: 20px;
+}
+
+
+.prod-img {
+    position: relative;
+    float: left;
+    width: 80px;
+    height: 80px;
+}
+
+.content {
+    line-height: 80px;
+    align-items: center;
+    justify-content: flex-start;
+    display: flex;
+    position: relative;
+    font-size: 19px;
+    font-weight: 400;
+    text-align: left;
+}
+
+
+
+.padding10 {
+    margin: 0px 10px;
+}
+
+#newPrice {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: black;
+}
+
+#prod-name{
+    font-size:20px;
+    font-weight:700;
+    line-height:24px;
+}
+
+.items{
+    display:flex;
+}
+
+input{
+    height: 30px;
+}
